@@ -51,3 +51,10 @@
 Также можно вывести список удаленных веток с помощью флага -a
 > <span style="color:Dodgerblue">***git branch -a*** </span>
 
+* ### *Создание новой ветки и переход в неё*
+
+Создать новую ветку можно с помощью параметра branch, указав имя ветки.
+> <span style="color:Dodgerblue">***git branch <новое_имя_ветки></span>***
+
+Но Git не переключится на неё автоматически. Для автоматического перехода нужно добавить флаг -b и параметр checkout.
+> <span style="color:Dodgerblue">***git checkout -b new_branch_name***</span>
