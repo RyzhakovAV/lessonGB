@@ -29,3 +29,13 @@
 > <span style="color:Dodgerblue">***git checkout***</span> – переход от одного коммита к другому
 
 > <span style="color:Dodgerblue">***git checkout master*** </span> – вернуться к актуальному состоянию и продолжить работу
+
+* ### *Отображение журнала фиксации в виде графика для текущей или всех веток*
+Просмотреть историю коммитов в виде графика для текущей ветки можно с помощью параметра log и флагов --graph
+> <span style="color:Dodgerblue">***git log --graph***</span>
+
+Просмотреть историю коммитов в виде графика для текущей ветки можно с помощью параметра log и флагов --graph --oneline --decorate. Опция --graph выведет график в формате ASCII, отражающий структуру ветвления истории коммитов. В связке с флагами --oneline и --decorate, этот флаг упрощает понимание того, к какой ветке относится каждый коммит.
+> <span style="color:Dodgerblue">***git log --graph --oneline --decorate***</span>
+
+Для просмотра истории коммитов по всем веткам используется флаг --all.
+> <span style="color:Dodgerblue">***git log --all --graph --oneline --decorate***</span>
