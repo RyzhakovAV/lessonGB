@@ -29,3 +29,11 @@
 > <span style="color:Dodgerblue">***git checkout***</span> – переход от одного коммита к другому
 
 > <span style="color:Dodgerblue">***git checkout master*** </span> – вернуться к актуальному состоянию и продолжить работу
+
+* ### *Создание новой ветки и переход в неё*
+
+Создать новую ветку можно с помощью параметра branch, указав имя ветки.
+> <span style="color:Dodgerblue">***git branch <новое_имя_ветки></span>***
+
+Но Git не переключится на неё автоматически. Для автоматического перехода нужно добавить флаг -b и параметр checkout.
+> <span style="color:Dodgerblue">***git checkout -b new_branch_name***</span>
