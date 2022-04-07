@@ -29,3 +29,10 @@
 > <span style="color:Dodgerblue">***git checkout***</span> – переход от одного коммита к другому
 
 > <span style="color:Dodgerblue">***git checkout master*** </span> – вернуться к актуальному состоянию и продолжить работу
+
+* ### *Просмотр списка веток*
+Можно просматривать полный список веток, используя параметр branch. Команда отобразит все ветки, отметит текущую звездочкой ( * ) и выделит её цвветом.
+> <span style="color:Dodgerblue">***git branch*** </span>
+
+Также можно вывести список удаленных веток с помощью флага -a
+> <span style="color:Dodgerblue">***git branch -a*** </span>
