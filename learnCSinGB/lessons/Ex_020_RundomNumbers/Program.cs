@@ -5,7 +5,5 @@
 */
 int N = new Random().Next(100, 1000);
 int n1 = N / 100;
-Console.WriteLine(n1);
 int n2 = N % 10;
-Console.WriteLine(n2);
 Console.WriteLine($"Для трехзначначного числа {N}, если удалить 2 разряд, получаем число: " + (n1*10+n2));
