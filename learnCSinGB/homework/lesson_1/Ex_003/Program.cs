@@ -3,7 +3,7 @@
 */
 Console.WriteLine("Введите число N");
 int N = Convert.ToInt32(Console.ReadLine());
-if (N % 2 ==0) {
+if (N % 2 == 0) {
     Console.Write("Число четное");
 }else{
     Console.Write("Число нечетное");
