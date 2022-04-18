@@ -8,8 +8,8 @@ int N = Convert.ToInt32(Console.ReadLine());
 N = Math.Abs(N);
 if (N < 100){
     Console.WriteLine("Третьей цифры нет");
-}else if(N > 999){
-    while(N > 999){
+}else if(N => 999){
+    while(N => 999){
         N/=10;
     }
     Console.WriteLine(N%10);
