@@ -21,8 +21,7 @@ void PrintArray(int[] arr){
 
 int[] ReplaceArray(int[] arr){
     for(int i = 0; i < arr.Length; i++){
-        if (arr[i] < 0) arr[i] = Math.Abs(arr[i]);
-        else arr[i] *= -1;
+        arr[i] = - arr[i];
     }
     return arr;
 }
