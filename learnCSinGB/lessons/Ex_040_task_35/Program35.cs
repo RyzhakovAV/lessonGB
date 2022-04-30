@@ -36,6 +36,5 @@ int FindInArray(int[] arr, int min, int max){
 
 array = FillArray(array);
 PrintArray(array);
-int count = FindInArray(array, min, max);
 Console.WriteLine();
-Console.Write($"Количество элементов в массиве от {min} до {max} равна {count}");
+Console.Write($"Количество элементов в массиве от {min} до {max} равна {FindInArray(array, min, max)}");
