@@ -8,7 +8,7 @@
 [1, 2, 3, 6, 2] --> 0
 [10, 11, 12, 13, 14] --> 5
 */
-int[] array = new int[123];
+int[] array = new int[122];
 int min = 10, max = 99;
 
 int[] FillArray (int[] arr){
