@@ -38,7 +38,7 @@ int [] SumArray (int[] arr, int N){
         newArray[N/2] = arr[N/2];
     }
     for (int i = 0; i < arr.Length/2; i ++) {
-        newArray[i] = arr[i] + arr[arr.Length - i - 1];
+        newArray[i] = arr[i] * arr[arr.Length - i - 1];
     }
 
     return newArray;
