@@ -40,7 +40,7 @@ void FillArray(int[,] arr, int min, int max){
 void PrintArray(int[,] arr){
     for(int i = 0; i < arr.GetLength(0); i++){
         for(int j = 0; j < arr.GetLength(1); j++){
-            Console.Write($"array[{i}, {j}] = {arr[i,j]}  ");
+            Console.Write($"array[{i}, {j}] = {arr[i,j]} \t");
         }
         Console.WriteLine();
     }
