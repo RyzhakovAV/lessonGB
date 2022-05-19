@@ -47,7 +47,7 @@ void PrintArray(int[,] arr){
 
 int SummaDigionalArray(int[,] arr){
     int sum = 0;
-    for (int i = 0, j = 0; i < arr.GetLength(0); i++, j++){
+    for (int i = 0, j = 0; i < arr.GetLength(0) &&  j < arr.GetLength(1)  ; i++, j++){
             sum += arr[i,j];
     }
     return sum;
