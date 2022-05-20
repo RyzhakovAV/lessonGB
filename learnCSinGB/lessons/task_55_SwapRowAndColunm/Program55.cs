@@ -46,8 +46,8 @@ void SwapPlace (int[,] arr) {
         Console.WriteLine ("Замена строк на столбцы не возможна.");
     }else{
         int temp, k=0;
-        for (int i = 0+k; i < arr.GetLength (0); i++) {
-            for (int j = 0+i; j < arr.GetLength(1); j++) {
+        for (int i = 0; i < arr.GetLength (0); i++) {
+            for (int j = 0+k; j < arr.GetLength(1); j++) {
                 temp = arr[i,j];
                 arr[i,j] = arr[j,i];
                 arr[j,i] = temp;
