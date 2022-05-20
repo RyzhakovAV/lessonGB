@@ -43,7 +43,7 @@ void PrintArray(int[,] arr){
 
 void SwapPlace(int[,] arr){
     int temp;
-    for (int i = 0; i < arr.GetLength(0); i++) {
+    for (int i = 0; i < arr.GetLength(1); i++) {
         temp = arr[0, i];
         arr[0, i] = arr[arr.GetLength(0)-1, i];
         arr[arr.GetLength(0)-1, i] = temp;
