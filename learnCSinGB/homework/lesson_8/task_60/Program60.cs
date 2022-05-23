@@ -6,7 +6,7 @@ int n = InputValue ("количество столбцов ");
 int o = InputValue ("глубину массива ");
 
 int[,,]  array = new int[m,n,o];
-if (m*n*o > 99) {
+if (m*n*o > 90) {
     Console.WriteLine("Массив слишком большой");
 }else{
     FillArray(array, 10, 99);
