@@ -19,5 +19,5 @@ uint InputValue (string element) {
 }
 
 uint AdditionDigitis (uint n) {
-    return (n/10 == 0) ? n : n%10 + AdditionDigitis(n/10); 
+    return (n < 10) ? n : n%10 + AdditionDigitis(n/10); 
 }
